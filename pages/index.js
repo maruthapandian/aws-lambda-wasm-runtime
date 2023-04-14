@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>AWS Lambda Wasm Runtime</title>
+        <title>AWS Lambda Wasm Runtime Demo</title>
         <link rel="icon" type="image/png" href="/aws-lambda-wasm-runtime/favicon.png" sizes="16x16" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://github.com/WasmEdge/WasmEdge">WasmEdge!</a>
+          Demo for image classification using WasmEdge
         </h1>
 
         <div className={styles.operating}>
